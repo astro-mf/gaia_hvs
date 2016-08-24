@@ -48,7 +48,7 @@ vel_array = np.linspace(min_vel, max_vel, dist_vel)
 faint_mag_limit =  13.0       # Stars fainter than this will be considered unobservable
 bright_mag_limit = 6.0          # Stars brighter than this will be in Hipparcos
 distance_err_tolerance = 0.5        # Maximum fractional uncertainty in parallax (i.e. 1 is 100% error, 0.1 is 10% error)
-proper_motion_err_tolerance = 0.5   # Maximum fractional uncertainty in PM
+proper_motion_err_tolerance = 0.2   # Maximum fractional uncertainty in PM
 
 
 # Loop over all possible combinations of distance, abs mag and velocity
